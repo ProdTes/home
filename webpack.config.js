@@ -5,7 +5,7 @@ const deps = require("./package.json").dependencies;
 module.exports = {
 
   output: {
-    publicPath: "http://localhost:3000/",
+    publicPath: "/",
   },  
   performance: {
     maxAssetSize: 500000,
